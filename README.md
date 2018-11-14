@@ -1,10 +1,10 @@
 # TabbarDemo 
-## Android like tabbar in iOS (Swift 4)
+> Android like tabbar in iOS (Swift 4)
 
 
-**Use TabbarView class to show the tab bar**
+> **Use TabbarView class to show the tab bar**
 
-	- Add tabs
+	> Add tabs
 		let tabView = TabbarView()
 		tabView.addOver(superView: self.mTabView)
 		
@@ -24,7 +24,7 @@
 		tab4.backgroundColor = UIColor.orange
 		try? tabView.add(tab: tab4)
 
-	- define each table
+	> define each table
 	
 		class Tab1: UIView, TabbarViewDelegate {
 	
