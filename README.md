@@ -45,3 +45,12 @@
 
 > Each tab class must implement UIView and TabbarViewDelegate
 
+-
+-
+-
+-
+# Demo
+
+![](TabbarDemo.gif)
+
+
