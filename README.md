@@ -25,7 +25,7 @@
 		tab4.backgroundColor = UIColor.orange
 		try? tabView.add(tab: tab4)
 
-- define each table
+- define each tab
 
 		class Tab1: UIView, TabbarViewDelegate {
 
