@@ -1,5 +1,5 @@
-# TabbarDemo 
-## Android like tabbar in iOS (Swift 4)
+# TabBarDemo 
+## Android like TabBar in iOS (Swift 4)
 
 
 > Use TabbarView class to show the tab bar
