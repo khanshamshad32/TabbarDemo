@@ -4,8 +4,8 @@
 
 **Use TabbarView class to show the tab bar**
 
-
-- let tabView = TabbarView()
+	- Add tabs
+		let tabView = TabbarView()
 		tabView.addOver(superView: self.mTabView)
 		
 		let tab1 = Tab1()
@@ -23,4 +23,24 @@
 		let tab4 = Tab4()
 		tab4.backgroundColor = UIColor.orange
 		try? tabView.add(tab: tab4)
--
+
+	- define each table
+	
+		class Tab1: UIView, TabbarViewDelegate {
+	
+			var title:String { return "Tab1"}
+			var icon: UIImage? {return UIImage(named: "ic_add_a_photo_white_24dp.png") }
+	
+			func viewSelected(_ tabView: TabbarView) {
+			}
+	
+			func viewDidDisappear(_ tabview: TabbarView) {
+			}
+	
+			func reloadTab(_ tabview: TabbarView) {
+			}
+	
+			}
+			
+		** Each tab class must implement UIView and TabbarViewDelegate
+
