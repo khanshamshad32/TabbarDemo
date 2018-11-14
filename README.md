@@ -43,7 +43,7 @@
 
 		}
 
-> Each tab class must implement UIView and TabbarViewDelegate
+> Each tab class must extend UIView and TabbarViewDelegate
 
 -
 -
