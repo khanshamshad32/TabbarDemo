@@ -1,4 +1,4 @@
-# TabBarDemo 
+# TabBar
 ## Android like TabBar in iOS (Swift 4)
 
 
